@@ -6,13 +6,17 @@ body {
     line-height: 1.6;
   }
   
- .deskripsione{
+ .deskripsione, .deskripsitwo {
   margin-top: -5px;
   text-align: center;
+  font-family: "Exo 2", sans-serif;
  }
 
  .content .peta{
-  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
  }
 
   .content {
@@ -43,4 +47,11 @@ body {
 
   .content h1, .content h2{
     font-family: "Handlee", cursive;
+  }
+
+  @media (max-width: 758px) {
+    .deskripsione, .deskripsitwo {
+      font-size: 2px;
+    }
+    
   }
