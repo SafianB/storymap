@@ -11,6 +11,9 @@ body {
   text-align: center;
  }
 
+ .content .peta{
+  justify-content: center;
+ }
 
   .content {
     margin-bottom: 30px;
