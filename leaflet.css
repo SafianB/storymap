@@ -6,6 +6,9 @@ body {
     line-height: 1.6;
   }
   
+ 
+
+
   .content {
     margin-bottom: 30px;
   }
@@ -26,6 +29,12 @@ body {
     width: 100%;
   }
 
-  .content p, .content h2 {
+  .content p{
     text-align: justify;
+    font-family: "Crimson Pro", serif;
+    font-size: 1.5rem;
+  }
+
+  .content h1, .content h2{
+    font-family: "Handlee", cursive;
   }

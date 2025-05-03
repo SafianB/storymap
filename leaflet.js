@@ -4,7 +4,7 @@ const map = L.map('map').setView([-6.608258, 140.551715], 16); // Replace with y
 // Add OpenStreetMap tiles with proper attribution
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  maxZoom: 13
+  maxZoom: 20
 }).addTo(map);
 
 // Add a marker
@@ -32,3 +32,10 @@ var polygon = L.polygon([
     [-6.535172, 140.542176],
     [-6.586892, 140.629051]
 ]).addTo(map);
+
+
+function onMapClick(e) {
+    alert("You clicked the map at " + e.latlng);
+}
+
+map.on('click', onMapClick);
