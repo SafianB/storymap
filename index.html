@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Centered Leaflet Map</title>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="leaflet.css">
 </head>
 <body>
+  <div class="content">
+    <h1>Cerita Boven Digoel</h1>
+    <p>Kabupaten Boven Digoel adalah salah satu kabupaten di provinsi Papua Selatan, Indonesia. Ibu kota kabupaten ini terletak di Tanah Merah, dengan jumlah penduduk 65.310 jiwa pada 2022, dan sebanyak 71.997 jiwa pada akhir 2024.</p>
+    <p>Wilayah ini pernah dijadikan sebuah camp pengasingan sejak Pemerintahan Belanda. </p>
+  </div>
   
+  <!-- Centered map container -->
+  <div class="map-container">
+    <div id="map"></div>
+  </div>
+  
+  <div class="content">
+    <h2>Camp 19</h2>
+    <p>Camp 19 berjarak 86.6 Km dari Tanah Merah, pusat kota Kabupaten Boven Digoel. Kurang lebih dapat ditempuh dengan waktu 2 jam 10 Menit menggunakan motor. Camp 19 memiliki luas 14 km x 20 km, setara dengan kota berukuran sedang. </p>
+  </div>
 
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="leaflet.js"></script>
 </body>
 </html>

@@ -1,0 +1,34 @@
+// Initialize the map centered on your location
+const map = L.map('map').setView([-6.608258, 140.551715], 16); // Replace with your coordinates
+    
+// Add OpenStreetMap tiles with proper attribution
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 13
+}).addTo(map);
+
+// Add a marker
+L.marker([-6.608258, 140.551715]) // Replace with your coordinates
+  .addTo(map)
+  .bindPopup("<b>Camp 19,Butiptiri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
+  
+
+// Optional: Add a circle for visual interest
+L.circle([-6.608258, 140.551715], {
+  color: '#d23c67',
+  fillColor: '#f8b4c4',
+  fillOpacity: 0.3,
+  radius: 100
+}).addTo(map);
+
+
+
+var polygon = L.polygon([
+    [-6.660450, 140.584935],
+    [-6.580308, 140.447905],
+    [-6.556062, 140.464655],
+    [-6.567234, 140.479426],
+    [-6.532037, 140.500448],
+    [-6.535172, 140.542176],
+    [-6.586892, 140.629051]
+]).addTo(map);
