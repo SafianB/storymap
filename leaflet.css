@@ -6,7 +6,10 @@ body {
     line-height: 1.6;
   }
   
- 
+ .deskripsione{
+  margin-top: -5px;
+  text-align: center;
+ }
 
 
   .content {
