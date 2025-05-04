@@ -1,5 +1,5 @@
 // Initialize the map centered on your location
-const map = L.map('map').setView([-6.608258, 140.551715], 16); // Replace with your coordinates
+const map = L.map('map').setView([-6.593077, 140.548782], 16); // Replace with your coordinates
     
 // Add OpenStreetMap tiles with proper attribution
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
