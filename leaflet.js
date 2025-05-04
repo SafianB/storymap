@@ -1,8 +1,3 @@
-// nav
-
-
-
-// map
 // Initialize the map centered on your location
 const map = L.map('map').setView([-6.608258, 140.551715], 16); // Replace with your coordinates
     
@@ -13,13 +8,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Add a marker
-L.marker([-6.608258, 140.551715]) // Replace with your coordinates
+L.marker([-6.593077, 140.548782]) // Replace with your coordinates
   .addTo(map)
   .bindPopup("<b>Camp 19,Butiptiri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
   
 
 // Optional: Add a circle for visual interest
-L.circle([-6.608258, 140.551715], {
+L.circle([-6.593077, 140.548782], {
   color: '#d23c67',
   fillColor: '#f8b4c4',
   fillOpacity: 0.3,
@@ -39,9 +34,13 @@ var polygon = L.polygon([
 ]).addTo(map);
 
 
+var popup = L.popup();
+
 function onMapClick(e) {
-    alert("You clicked the map at " + e.latlng);
+    popup
+        .setLatLng(e.latlng)
+        .setContent("Camp 19 berada di " + e.latlng.toString())
+        .openOn(map);
 }
 
 map.on('click', onMapClick);
-
