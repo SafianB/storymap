@@ -109,7 +109,7 @@ body {
 
   .content h1, 
   .content h2, 
-  .map-container h2{
+  #camp{
     font-family: "Handlee", cursive;
   }
 
