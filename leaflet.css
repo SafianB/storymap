@@ -5,7 +5,55 @@ body {
     padding: 20px;
     line-height: 1.6;
   }
+
+  /* nav */
+  .sidenav {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  #mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
   
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555
+  }
+  /* home */
  .deskripsione, .deskripsitwo {
   margin-top: -5px;
   text-align: center;
@@ -50,8 +98,6 @@ body {
   }
 
   @media (max-width: 758px) {
-    .deskripsione, .deskripsitwo {
-      font-size: 2px;
-    }
+    
     
   }

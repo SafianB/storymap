@@ -1,3 +1,8 @@
+// nav
+
+
+
+// map
 // Initialize the map centered on your location
 const map = L.map('map').setView([-6.608258, 140.551715], 16); // Replace with your coordinates
     
@@ -39,3 +44,4 @@ function onMapClick(e) {
 }
 
 map.on('click', onMapClick);
+
