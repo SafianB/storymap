@@ -51,3 +51,5 @@ function onMapClick(e) {
 }
 
 map.on('click', onMapClick);
+
+// navigation control
