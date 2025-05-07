@@ -122,6 +122,29 @@ div.scroll-container img {
     font-family: "Handlee", cursive;
   }
 
+  /* footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: #333;
+    background-color: white;
+  }
+
+
+  /* Responsive design */
+
   @media (max-width: 758px) {
     
   }
