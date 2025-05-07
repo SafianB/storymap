@@ -29,7 +29,6 @@ L.circle([-6.593077, 140.548782], {
 }).addTo(map);
 
 
-
 var polygon = L.polygon([
     [-6.660450, 140.584935],
     [-6.580308, 140.447905],
@@ -39,6 +38,16 @@ var polygon = L.polygon([
     [-6.535172, 140.542176],
     [-6.586892, 140.629051]
 ]).addTo(map);
+    polygon.bindPopup("Kawasan Interniran");
+
+  var polygon = L.polygon([
+      [-6.427219, 140.398265],
+      [-6.427184, 140.38092],
+      [-6.405218, 140.380948],
+      [-6.405242, 140.398272],
+  ]).addTo(map);
+  polygon.bindPopup("Kamp Militer");
+
 
 
 var popup = L.popup();
