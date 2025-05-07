@@ -1,5 +1,5 @@
 // Initialize the map centered on your location
-const map = L.map('map').setView([-6.593077, 140.548782], 10); // Replace with your coordinates
+const map = L.map('map').setView([-6.418053, 140.390114], 9); // Replace with your coordinates
     
 // Add OpenStreetMap tiles with proper attribution
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -9,15 +9,15 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 L.marker([-6.593077, 140.548782]) // Replace with your coordinates
   .addTo(map)
-  .bindPopup("<b>Pemukiman Interniran, Butiptiri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
+  .bindPopup("<b>Pemukiman Interniran, Butiptiri,</b><br>Boven Digoel,<br>Papua, Indonesia.<a href='#interniran'>klik</a>");
   
-  // L.marker([-6.618333, 140.278886]) // Replace with your coordinates
-  // .addTo(map)
-  // .bindPopup("<b>Camp 18, Gentiri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
+  L.marker([-6.107283, 140.307856]) // Replace with your coordinates
+  .addTo(map)
+  .bindPopup("<b>Tanah Merah,</b><br>Boven Digoel,<br>Papua, Indonesia. <a href='#camp'>klik</a>");
   
   L.marker([-6.418053, 140.390114]) // Replace with your coordinates
   .addTo(map)
-  .bindPopup("<b>Kamp Militer, Miri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
+  .bindPopup("<b>Kamp Militer, Miri,</b><br>Boven Digoel,<br>Papua, Indonesia. <a href='#militer'>klik</a>");
   
 
 // Optional: Add a circle for visual interest
