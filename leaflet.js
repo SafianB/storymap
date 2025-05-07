@@ -9,15 +9,15 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 L.marker([-6.593077, 140.548782]) // Replace with your coordinates
   .addTo(map)
-  .bindPopup("<b>Camp 19, Butiptiri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
+  .bindPopup("<b>Pemukiman Interniran, Butiptiri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
   
-  L.marker([-6.618333, 140.278886]) // Replace with your coordinates
-  .addTo(map)
-  .bindPopup("<b>Camp 18, Gentiri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
+  // L.marker([-6.618333, 140.278886]) // Replace with your coordinates
+  // .addTo(map)
+  // .bindPopup("<b>Camp 18, Gentiri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
   
   L.marker([-6.418053, 140.390114]) // Replace with your coordinates
   .addTo(map)
-  .bindPopup("<b>Camp 17, Miri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
+  .bindPopup("<b>Kamp Militer, Miri,</b><br>Boven Digoel,<br>Papua, Indonesia.");
   
 
 // Optional: Add a circle for visual interest

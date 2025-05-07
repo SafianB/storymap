@@ -79,6 +79,10 @@ body {
   margin-top: 50px;
 }
 
+.content p span {
+  font-style: italic;
+}
+
   /* Map container styling */
   .map-container {
     width: 100%;
