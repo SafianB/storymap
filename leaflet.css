@@ -116,7 +116,8 @@ div.scroll-container img {
 
   .content h1, 
   .content h2, 
-  #camp{
+  #camp,
+  #pustaka h2{
     font-family: "Handlee", cursive;
   }
 
