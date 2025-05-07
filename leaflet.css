@@ -57,9 +57,16 @@ body {
   margin-right: auto;
   width: 80%;
  }
+
+ .kupu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
  
 
- .gambar1{
+ .gambar1, .gambar3{
   display: block;
   margin-left: auto;
   margin-right: auto;
